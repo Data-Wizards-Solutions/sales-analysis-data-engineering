@@ -41,7 +41,7 @@ The application includes the following data sources located in [this directory](
 
 ## Development Environment
 - Use Python as the primary programming language.
-- Manage dependencies using Poetry (see `pyproject.toml` and `poetry.lock`).
+- Manage dependencies.
 - Use Jupyter Notebooks in the `notebooks/` directory for data exploration and prototyping.
 
 ## Notes
