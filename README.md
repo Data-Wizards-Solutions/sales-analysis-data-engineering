@@ -14,9 +14,10 @@ The application includes the following data sources located in [this directory](
 ## Objectives
 1. **ETL Process**: Write an ETL pipeline to retrieve and process a base table from the provided data sources.
 2. **Database Ingestion**: Ingest the processed data into a database of your choice.
-3. **Endpoints**:
+3. **API Endpoints**:
    - **/lat-lon-revenue**: Given a location (latitude and longitude), calculate the revenue of last year's installations in the nearest city that is generating the highest revenue, and return this in a json including his/her id and email
    - **/city-revenue**: Return the total revenue of the last year for a specified location by city name, make sure it's robust.
+4. Docker in which to serve the API endpoint
 
 ## Instructions
 1. **ETL Pipeline**:
@@ -27,7 +28,7 @@ The application includes the following data sources located in [this directory](
 2. **Database Selection**:
    - Choose a database that supports efficient querying and scalability.
 
-3. **Endpoints Implementation**:
+3. **API Endpoints Implementation**:
    - The `/lat-lon-revenue` endpoint:
      - Input: JSON with `latitude` and `longitude` fields
      - Output: JSON with `customer_id`, `email`, and `revenue` fields
@@ -39,12 +40,10 @@ The application includes the following data sources located in [this directory](
 4. **Docker in which to serve the app**
 
 
-## Development Environment
-- Use Python as the primary programming language.
-- Manage dependencies.
-- Use Jupyter Notebooks in the `notebooks/` directory for data exploration and prototyping.
 
 ## Notes
+- You should be able to finish the case in 4 hours.
+- Use Python as the primary programming language.
 - Follow best practices for ETL and database design.
 - Ensure the endpoints are optimized for performance.
 - Document your code and provide clear instructions for running the application.
